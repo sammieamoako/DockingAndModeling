@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+JobId          : LAPTOP-TB2LTRAP-0-68c7303e
+Name           : align_ligands_1
+Program        : align_ligands
+Version        : 2023-1 build 128
+Host           : LAPTOP-TB2LTRAP
+Dir            : C:\Users\sammi\Documents\Schrodinger\align_ligands_1
+HostEntry      : localhost
+JobHost        : LAPTOP-TB2LTRAP
+JobDir         : C:\Users\sammi\AppData\Local\Schrodinger\tmp\align_ligands_1
+JobSchrodinger : C:\Program Files\Schrodinger2023-1
+Commandline    : C:\Program Files\Schrodinger2023-1\utilities\align_ligands.exe ligands_to_align.mae -ref 1 -core MCS -sample thorough -max 1000 -close_contact 0.5 -JOBNAME align_ligands_1 -HOST localhost:1 -DISP replace -VIEWNAME alignligands -PROJ C:\Users\sammi\AppData\Local\Schrodinger\tmp\Tmp_14Sep2025_2103_52122
+StartTime      : 2025-09-14-21:14:41
+--------------------------------------------------------------------------------
+[running at reduced cpu priority]
+
+Finding MCS cores for 2 structures
+
+Primary reference = structure 1
+
+Aligning 2-->1 (1 of 1): Core SMARTS = [#6&!R](-&!@[#8&!R]-&!@[#6&R]1:&@[#6&R]:&@[#6&R]:&@[#6&R](:&@[#6&R]:&@[#6&R]:&@1)-&!@[#6&!R](-&!@[#9&!R])(-&!@[#9&!R])-&!@[#9&!R])(-&!@[#6&!R]-&!@[#6&!R]-&!@[#7&!R]-&!@[#6&!R])-&!@[#6&R]1:&@[#6&R]:&@[#6&R]:&@[#6&R]:&@[#6&R]:&@[#6&R]:&@1
+Performing flexible least-squares core alignment due to stereochemistry change
+  Shape similarity = 0.822034
+
+Attempting to superimpose identical sidechains
+
+Writing 2 aligned structures to align_ligands_1_align.maegz
+
+Current time: Sun Sep 14 21:14:47 2025
+Elapsed time: 0:00:00.66
+align_ligands successfully completed.
+

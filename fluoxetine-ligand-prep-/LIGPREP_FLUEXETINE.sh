@@ -1,0 +1,1 @@
+"${SCHRODINGER}/ligprep" -inp LIGPREP_FLUEXETINE.inp -HOST localhost:1 -NJOBS 1 -TMPLAUNCHDIR

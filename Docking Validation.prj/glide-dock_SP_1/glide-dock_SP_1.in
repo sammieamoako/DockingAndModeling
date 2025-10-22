@@ -1,0 +1,5 @@
+FORCEFIELD   OPLS_2005
+GRIDFILE   "C:\Users\sammi\Documents\Schrodinger\Docking Validation.prj\glide-grid_1\glide-grid_1.zip"
+LIGANDFILE   glide-dock_SP_1.maegz
+POSES_PER_LIG   5
+PRECISION   SP

@@ -1,0 +1,6 @@
+SMILES,title,i_i_glide_lignum,docking_status,r_glide_cpu_time,r_i_docking_score,s_i_glide_gridfile,r_i_glide_gscore,r_i_glide_lipo,r_i_glide_hbond,r_i_glide_metal,r_i_glide_rewards,r_i_glide_evdw,r_i_glide_ecoul,r_i_glide_erotb,r_i_glide_esite,r_i_glide_emodel,r_i_glide_energy,r_i_glide_einternal
+Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,"Reference",1,Done,1.266,-8.57546,"glide-grid_1",-8.58836,-2.89068,-0.188744,-0,-2.32526,-48.6813,-7.43483,0.465613,-0.1,-89.4894,-56.1161,3.60583
+Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,"Reference",1,Done,1.266,-8.52978,"glide-grid_1",-8.54268,-2.80027,-0.172017,-0,-2.44637,-47.961,-7.2773,0.465613,-0.1,-88.5127,-55.2383,3.42926
+Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,"Reference",1,Done,1.266,-8.72345,"glide-grid_1",-8.73635,-3.20909,-0.189181,-0,-2.30915,-48.2161,-6.55826,0.465613,-0.1,-87.974,-54.7744,5.16531
+Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,"Reference",1,Done,1.266,-7.99697,"glide-grid_1",-8.00987,-2.73342,-0.159173,-0,-2.36473,-44.8895,-5.8646,0.465613,-0.0939921,-81.1593,-50.7541,4.80303
+Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,"Reference",1,Done,1.266,-7.90679,"glide-grid_1",-7.91969,-3.39176,-0.268817,-0,-2.09003,-45.1211,-2.47866,0.465613,-0.00683604,-78.8328,-47.5998,2.40873

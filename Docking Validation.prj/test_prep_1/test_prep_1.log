@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+JobId          : LAPTOP-TB2LTRAP-0-68f9356f
+Name           : test_prep_1
+Program        : LigPrep
+Version        : 2023-1 build 128
+Host           : LAPTOP-TB2LTRAP
+Dir            : C:\Users\sammi\Documents\Schrodinger\Docking Validation.prj\test_prep_1
+HostEntry      : localhost
+JobHost        : LAPTOP-TB2LTRAP
+JobDir         : C:\Users\sammi\AppData\Local\Schrodinger\tmp\test_prep_1
+JobSchrodinger : C:\Program Files\Schrodinger2023-1
+Commandline    : C:\Program Files\Schrodinger2023-1\ligprep.exe -inp test_prep_1.inp -HOST localhost:1 -NJOBS 1 -PROJ "C:\Users\sammi\Documents\Schrodinger\Docking Validation.prj" -DISP append -VIEWNAME ligprep_gui.LigPrepPanel -TMPLAUNCHDIR
+StartTime      : 2025-10-22-19:50:09
+--------------------------------------------------------------------------------
+LigPrep (version 65128). Copyright Schrodinger, LLC. All rights reserved.
+
+LigPrep command:
+$SCHRODINGER/ligprep -ma 500 -bff 16 -epik -s 5 -imae test_prep_1.maegz -omae test_prep_1-out.maegz
+
+Processing steps:
+$DO.sdstereoexpander -add_hydrogens -max_output 5 -max_generated 160 <infile.mae> <outfile.mae>
+$DO.htreat -t All-None -a all -s -l 500 <infile.mae> <outfile.mae>
+$DO.desalter <infile.mae> <outfile.mae>
+$DO.neutralizer -m 500 <infile.mae> <outfile.mae>
+$DO.guard <infile.mae> <outfile.mae>
+$DO.epik.py -ph 7.0 -tn 8 -ma 500 -imae <infile.mae> -omae <outfile.mae>
+$DO.stereoizer -label_specified_chiralities -n 5 <infile.mae> <outfile.mae>
+$DO.cgx -optimize -ffld 16 -epsilon 10.0 <infile.mae> <outfile.mae>
+$DO.filterstereo -max_stereo 5 <infile.mae> <outfile.mae>
+
+DO=$SCHRODINGER\run python3 -m schrodinger.application.macromodel.packages.ligprep3
+
+# counts of output and dropped structures after processing steps
+# index  sdstex  htreat  desalt  neutra   guard   epik   stereo    cgx   filter  title
+       1   1/0     1/0     1/0     1/0     1/0     2/0     3/0     3/0     3/0   'Reference'
+
+# of processed structures in "test_prep_1-out.maegz" : 3
+# of dropped structures in "test_prep_1-dropped.maegz" : 0
+
+backend run time: 0 hours 0 minutes 8.187 seconds

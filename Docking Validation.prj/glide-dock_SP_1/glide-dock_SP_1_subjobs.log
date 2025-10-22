@@ -1,0 +1,79 @@
+######## begin of glide-dock_SP_1-0001.log #########
+Glide version 98128 (mmshare version 61128)
+mmshare         4006a1f061
+glide-src       5a2936bf79
+psp-src         f38ea8d73b
+macromodel-src  6316add16d
+epik-src        7026e3f65a
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : LAPTOP-TB2LTRAP-0-68f936ac
+Name           : glide-dock_SP_1-0001
+Program        : Glide
+Version        : 2023-1 build 128
+Host           : LAPTOP-TB2LTRAP
+Dir            : C:\Users\sammi\AppData\Local\Schrodinger\tmp\glide-dock_SP_1
+HostEntry      : localhost
+JobHost        : LAPTOP-TB2LTRAP
+JobDir         : C:\Users\sammi\AppData\Local\Schrodinger\tmp\glide-dock_SP_1-0001
+JobSchrodinger : C:\Program Files\Schrodinger2023-1
+Commandline    : C:\Program Files\Schrodinger2023-1\glide.exe -RESTART -serial glide-dock_SP_1-0001.inp -HOST localhost
+StartTime      : 2025-10-22-19:55:25
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+ After readscreen, (nx, ny, nz) = (          24 ,           24 ,           24 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           24 , 
+          24 ,           24 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          64 ,           64 , 
+          64 ).
+
+ Metal   At. Num.  Eff. Charge  Category    x         y         z
+ 5752      30        0.00           2    50.593    -3.134    53.766
+  
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file 'C:\Program Files\Schrodinger2023-1\glide-v9.8\bin\Windows-x64\..\..\data\torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+GlideScore(   -8.59)+Epik State Penalty(    0.01) =    -8.58 kcal/mol
+GlideScore(   -8.54)+Epik State Penalty(    0.01) =    -8.53 kcal/mol
+GlideScore(   -8.74)+Epik State Penalty(    0.01) =    -8.72 kcal/mol
+GlideScore(   -8.01)+Epik State Penalty(    0.01) =    -8.00 kcal/mol
+GlideScore(   -7.92)+Epik State Penalty(    0.01) =    -7.91 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (Reference)
+Best Emodel=   -89.49 E=   -56.12 Eint=     3.61 GlideScore=    -8.59
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_SP_1-0001_raw.maegz
+
+Exiting Glide
+Date: Wednesday, October 22 2025, at 19:55:33 Greenwich Standard Time
+CPU time (s): 2.5 user, 0.3 system, 3.7 real
+Total elapsed time = 4 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_SP_1-0001.log #########

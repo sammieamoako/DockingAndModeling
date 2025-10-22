@@ -1,0 +1,121 @@
+Fixing common structure mistakes...
+  No mistakes were found
+Pre-treating metals...
+Done treating metals
+Assigning bond orders...
+  Using CCD: True
+  No bond orders were changed
+Removing and re-adding hydrogens...
+Treating metals...
+Creating di-sulfur bonds...
+Annotating antibody regions...
+Converting Selenomethionines...
+Deleting far waters...
+Detecting missing residue atoms...
+  No missing side chains found
+Adding terminal oxygens...
+  Added a terminal oxygen to the following residues: A:399, B:180, B:1041, B:401
+Finding het groups (for Epik)...
+COMMAND:
+ C:\Program Files\Schrodinger2023-1\epik-v6.3\bin\Windows-x64\epik_app -imae 6A93-proteinprep_1-preprocess-genstates.maegz -omae 6A93-proteinprep_1-preprocess-genstates-out.maegz -ms 10 -ph 6.0 -pht 2.0 -cg 0.3 0.3 -metal_binding
+SCHRODINGER: C:\Program Files\Schrodinger2023-1
+
+Running Epik version     6.3128
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        6A93-proteinprep_1-preprocess-genstates.maegz
+Output file name:                       6A93-proteinprep_1-preprocess-genstates-out.maegz
+Maximum number of states set to: 10
+Structure adjustment calculation requested.
+  Target pH set to 6.000
+pHt tolerance set to 2.000000e+00
+Both connectivity and geometry used in determining redundant structures.
+  Structures are distinct if: 
+    any position differs by more than 3.000000e-01
+    the rms difference in positions is larger than 3.000000e-01
+Metal binding mode turned on.
+
+Adjusting structures for pH 6.000000e+00 and minimum probability 1.000000e-02
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: 
+Metal Binding:    Using non-metal probability:          1.000000e+00
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            74   Conj_Acid 16.75
+                                            28   Conj_Base  1.32
+ pKa penalty:                                 0.00 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included): -0.00 kcal/mol
+ Total Charge: 0
+ Metal Penalty:                              -0.00 kcal/mol
+---------------------------
+Processing Input Structure #2
+        Title: 
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            58   Conj_Acid  8.66
+                                            28   Conj_Base  2.28
+                                            30   Conj_Base -1.12
+ pKa penalty:                                 0.00 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included): -0.00 kcal/mol
+ Total Charge: 1
+ Metal Penalty:                              -0.00 kcal/mol
+---------------------------
+Processing Input Structure #3
+        Title: 
+Metal Binding:    Using non-metal probability:          1.000000e+00
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+ pKa penalty:                                 0.00 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included): -0.00 kcal/mol
+ Total Charge: 0
+ Metal Penalty:                              -0.00 kcal/mol
+---------------------------
+Processing Input Structure #4
+        Title: 
+Metal Binding:    Using non-metal probability:          1.000000e+00
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            74   Conj_Acid 16.75
+                                            28   Conj_Base  1.32
+ pKa penalty:                                 0.00 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included): -0.00 kcal/mol
+ Total Charge: 0
+ Metal Penalty:                              -0.00 kcal/mol
+---------------------------
+
+Job completed at Wed Oct 22 19:30:22 2025
+Elapsed time: 1.63418s
+Processing 8 het groups...
+Epik completed; filtering undesired states...
+Number of hets: 5
+Keeping max states: 1
+het: 1 applied # states: 1
+het: 6 applied # states: 1
+het: 7 applied # states: 1
+het: 8 applied # states: 1
+het: 2 applied # states: 1
+Idealizing hydrogen temperature factors...
+Pre-processing has completed
